@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import Pet from '../../models/pet.model';
 import Responsible from '../../models/responsible.model';
 import { URLS } from '../../utils/urls';
-import './styles.scss';
+import './styles.css';
 
 
 function Register() {

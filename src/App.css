@@ -3,7 +3,6 @@
 }
 
 .App {
-  background: #1D1929;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -17,24 +16,10 @@
   font-size: 2em;
 }
 
-.form {
+.content {
   display: flex;
-  background-color: #bab2d1;
-  height: 60%;
-  width: 60%;
-  border-radius: 5%;
-  padding: 1em;
-}
-
-.form-container {
-  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
   flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-start;
-  width: 100%;
-}
-
-.MuiButton-root {
- margin-top: 1em !important;
 }
